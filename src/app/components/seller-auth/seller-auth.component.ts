@@ -3,12 +3,14 @@ import { Router } from '@angular/router';
 import { signUp } from 'src/app/models/signup.model';
 import { SellerService } from 'src/app/Services/seller.service';
 
+
 @Component({
   selector: 'app-seller-auth',
   templateUrl: './seller-auth.component.html',
   styleUrls: ['./seller-auth.component.css']
 })
 export class SellerAuthComponent implements OnInit {
+  
    public showLogin: boolean = false;
    public authError: string = '';
  constructor (private sellerservice: SellerService, private router: Router){

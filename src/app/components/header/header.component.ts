@@ -7,20 +7,31 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  public menuType: string = 'defult'
+  public menuType: string = 'defult';
+  public sellerName : string = '';
    constructor(private router: Router){}
 
    ngOnInit(): void {
      this.router.events.subscribe((value: any) =>{
       if (value.url){
        if(localStorage.getItem('seller') && value.url.includes('seller')){
-        this.menuType = 'seller'
-        console.log('in seller area')
+        this.menuType = 'seller';
+        console.log('in seller area');
+     if(localStorage.getItem('seller')){
+       let storedSeller = localStorage.getItem('seller');
+       let storeData = storedSeller && JSON.parse(storedSeller)[0];
+       this.sellerName = storeData.name;
+     }
       }else{
          this.menuType = 'defult' 
         console.log('out of seller')
        }
       }
      })
+   }
+
+   logOut(){
+    localStorage.removeItem('seller')
+    this.router.navigate(['/'])
    }
 }

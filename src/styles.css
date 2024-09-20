@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+
 body {
     font-family: sans-serif;
 }
@@ -24,4 +24,20 @@ body {
     cursor: pointer;
     width: 100px;
     border-radius: 20px;
+}
+
+.common-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+}
+
+.signup,
+.login {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #619f9f;
 }

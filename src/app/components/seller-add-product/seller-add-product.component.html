@@ -1,0 +1,53 @@
+<div class="seller-auth">
+  <div class="signup">
+    <h1>Add Product</h1>
+    <p>{{addProductMessage}}</p>
+    <form #productForm="ngForm" (ngSubmit)="addProduct(productForm.value)" class="common-form">
+      <input 
+       class="form-input"
+       type="text"
+       ngModel 
+       name="productName"
+       placeholder="Enter productName"
+       />
+      <input 
+       class="form-input"
+       type="number"
+       ngModel 
+       name="productPrice" 
+       placeholder="Enter productPrice" 
+       />
+      <input 
+       class="form-input"
+       type="text"
+       ngModel 
+       name="productColor"
+       placeholder="Enter productColor" 
+       />
+       <input 
+       class="form-input"
+       type="text"
+       ngModel
+       name="productCategary"
+       placeholder="Enter productCategary"
+       />
+       <textarea 
+        type="text"
+        name="describtion"
+        class="form-input"
+        ngModel
+        placeholder="Enter product describtion"
+        >
+
+       </textarea>
+       <input 
+       class="form-input"
+       type="text"
+       ngModel
+       name="productImage"
+       placeholder="Enter productImage URL"
+       />
+      <button class="form-button">Sumbit</button>
+    </form>
+  </div>
+</div>
