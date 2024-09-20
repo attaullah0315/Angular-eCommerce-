@@ -50,3 +50,8 @@ nav li a {
     border-left: 0px;
     border-radius: 5px;
 }
+
+h1 a {
+    text-decoration: none;
+    color: #619f9f;
+}
