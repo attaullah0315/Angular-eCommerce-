@@ -11,26 +11,13 @@
       "name": "affankhan",
       "email": "affan123@gmail.com",
       "password": "noorkhan"
-    }
-  ],
-  "products": [
-    {
-      "id": "0956",
-      "productName": "iphoine 15",
-      "productPrice": 320000,
-      "productColor": "black",
-      "productCategary": "mobile",
-      "describtion": "this mobile is camera very good",
-      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-pro-model-unselect-gallery-2-202409_GEO_US?wid=5120&hei=2880&fmt=webp&qlt=70&.v=aWs5czA5aDFXU0FlMGFGRlpYRXk2UWFRQXQ2R0JQTk5udUZxTkR3ZVlpSlo4cUtOVXZ0VkpGRlBQT0VQc1Qrd0lYUWYrQkRLNitCbE9QRVRqNHErMkE3b3pFWnhZZ2g0M0pRR0pEdHVSRUduT0czaHArUlZLcEtOcW5GMm05cGpjZEdRU1pKUzFhYUR2UXFULzFGNGpBPT0=&traceId=1"
     },
     {
-      "id": "0351",
-      "productName": "iphoine 15",
-      "productPrice": 62542442,
-      "productColor": "black",
-      "productCategary": "mobile",
-      "describtion": "yydsagdysagda dsagdyuagdag",
-      "productImage": "https://6linb5yp.buzz/offer/4?imp=todoawyprjypp1726806246650&rurl=https%3A%2F%2Fgentlyrevitalizedarchitect.com%2F%3Fa%3D103098%26c%3D143007%26s1%3D136%26s2%3Dtodoawyprjypp1726806246650%26s3%3Dwww.gsmarena.com"
+      "id": "51b5",
+      "name": "affankhan",
+      "email": "uatta5404@gmail.com",
+      "password": "noorkhan"
     }
-  ]
+  ],
+  "products": []
 }

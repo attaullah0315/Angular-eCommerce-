@@ -10,6 +10,7 @@ export interface logIn{
 }
 
 export interface product{
+    id: number;
     productName: string;
     productPrice:number;
     productCategary: string;

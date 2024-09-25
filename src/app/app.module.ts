@@ -10,7 +10,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SellerHomeComponent } from './components/seller-home/seller-home.component';
 import { SellerAddProductComponent } from './components/seller-add-product/seller-add-product.component';
-
+import { TableModule } from 'primeng/table';
+import { ButtonModule } from 'primeng/button'; 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -28,6 +31,11 @@ import { SellerAddProductComponent } from './components/seller-add-product/selle
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    TableModule,              
+    ButtonModule,
+    BrowserAnimationsModule,
+    FontAwesomeModule             
   ],
   providers: [],
   bootstrap: [AppComponent]
