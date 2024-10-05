@@ -23,9 +23,11 @@ img{
     width: 100px;
 }
 
-fa-icon {
+fa-icon, .updateIcon {
     font-size: 28px;
     cursor: pointer;
+    color: #619f9f;
+    margin-left: 10px;
 }
 
 .combineClass{

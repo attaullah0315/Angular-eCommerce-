@@ -14,7 +14,7 @@ import { TableModule } from 'primeng/table';
 import { ButtonModule } from 'primeng/button'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { SellerUpdateProductComponent } from './components/seller-update-product/seller-update-product.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomeComponent,
     SellerAuthComponent,
     SellerHomeComponent,
-    SellerAddProductComponent
+    SellerAddProductComponent,
+    SellerUpdateProductComponent
   ],
   imports: [
     BrowserModule,

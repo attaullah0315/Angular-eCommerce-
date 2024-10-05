@@ -19,5 +19,24 @@
       "password": "noorkhan"
     }
   ],
-  "products": []
+  "products": [
+    {
+      "productName": "Paula Sellers",
+      "productPrice": 87653,
+      "productColor": "green",
+      "productCategary": "Eaque pariatur Veli",
+      "describtion": "Voluptate magni ea n",
+      "productImage": "Nulla cupiditate iru",
+      "id": "70db"
+    },
+    {
+      "productName": "Paula Sellers",
+      "productPrice": 98765,
+      "productColor": "Odit libero qui quas",
+      "productCategary": "Eaque pariatur Veli",
+      "describtion": "Voluptate magni ea n",
+      "productImage": "Nulla cupiditate iru",
+      "id": "1d88"
+    }
+  ]
 }

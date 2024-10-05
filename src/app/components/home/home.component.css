@@ -9,3 +9,12 @@ app-seller-auth {
     display: flex;
     flex-direction: column;
 }
+
+.custom-img {
+    width: 20%;
+    /* Adjust the percentage or set a fixed width like '500px' */
+    height: auto;
+    /* Ensures the aspect ratio remains intact */
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
