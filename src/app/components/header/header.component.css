@@ -1,6 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 nav h1 {
@@ -15,7 +16,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-
+ 
 nav li {
     padding-top: 15px;
     padding-left: 15px;
@@ -55,4 +56,18 @@ nav li a {
 h1 a {
     text-decoration: none;
     color: #619f9f;
+}
+
+.suggisted-result{
+    position: absolute;
+    display: list-item!important;
+    z-index: 10;      
+    border: 1px solid #ddd;
+    background-color: #fff;
+    top: 35px;
+    width: 500px;
+}
+
+.suggisted-result li{
+    padding: 5px;
 }

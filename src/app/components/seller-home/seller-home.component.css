@@ -33,3 +33,8 @@ fa-icon, .updateIcon {
 .combineClass{
     color: #619f9f;
 }
+
+h2{
+    display: flex;
+    justify-content: center;
+}

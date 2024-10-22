@@ -1,8 +1,13 @@
 <nav class="nav">
   <h1><a routerLink="/">Ecommerce</a></h1>
   <div *ngIf="menuType === 'defult'" class="nav-search">
-    <input type="text" placeholder="search for products" />
-    <button>Search</button>
+    <input #searchInput type="text" (keyup)="serachProducts($event)"  (blur)="searchHide()" placeholder="search for products" />
+    <button  (click)="searchProduct(searchInput.value)">Search</button>
+    <ul class="suggisted-result" *ngIf="serachProduct">
+      <li *ngFor="let item of serachProduct">
+        <a>{{item.productName}}</a>
+      </li>
+    </ul>
   </div>
    <div [ngSwitch]="menuType">
      <ul *ngSwitchCase="'defult'">

@@ -15,6 +15,8 @@ import { ButtonModule } from 'primeng/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SellerUpdateProductComponent } from './components/seller-update-product/seller-update-product.component';
+import { CarouselModule } from 'primeng/carousel';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { SellerUpdateProductComponent } from './components/seller-update-product
     SellerAuthComponent,
     SellerHomeComponent,
     SellerAddProductComponent,
-    SellerUpdateProductComponent
+    SellerUpdateProductComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { SellerUpdateProductComponent } from './components/seller-update-product
     TableModule,              
     ButtonModule,
     BrowserAnimationsModule,
-    FontAwesomeModule             
+    FontAwesomeModule,
+    CarouselModule             
   ],
   providers: [],
   bootstrap: [AppComponent]
